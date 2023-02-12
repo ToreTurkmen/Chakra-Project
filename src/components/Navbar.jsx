@@ -15,11 +15,6 @@ export default function Navbar() {
       </HStack>
       
     </Flex>
-    // <Flex bg="gray.300" justify="space-between" wrap="wrap" gap="2">
-    //   <Box w="150px" h="100px" bg="blue">1</Box>
-    //   <Box w="150px" h="100px" bg="gray">2</Box>
-    //   <Box w="150px" h="100px" flexGrow="1" bg="yellow">3</Box>
-    //   <Box w="150px" h="100px" bg="red">4</Box>
-    // </Flex>
+    
   )
 }
