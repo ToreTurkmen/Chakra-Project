@@ -1,13 +1,15 @@
 import { Outlet} from "react-router-dom"
 import { Grid, GridItem } from "@chakra-ui/react"
 import Navbar from "../components/Navbar"
+import Sidebar from "../components/sidebar"
 
 export default function RootLayout() {
   return (
     <Grid templateColumns="repeat(6, 1fr)" bg="gray.50">
       
-      <GridItem as="aside" colSpan={{base: 6, lg:2, xl:1}} bg="blue.50" minHeight={{lg: '100vh'}} p={{base: '20px', lg: '30px'}}>
-        <span>Sidebar</span>
+      <GridItem as="aside" colSpan={{base: 6, lg:2, xl:1}} bg="blue.200" minHeight={{lg: '100vh'}} p={{base: '20px', lg: '30px'}}>
+        
+        <Sidebar />
       </GridItem>
     
 
